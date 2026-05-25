@@ -33,13 +33,13 @@ function useLocalStorage(key, initialValue) {
 
 // --- DATOS INICIALES CONSTANTES ---
 const DEFAULT_ITINERARY = [
-  { id: 1, day: 1, date: 'Mar 27', title: 'Llegada y Primer Vistazo', iconType: 'sun', iconColor: 'var(--cat-rose)', details: 'Llegada a las 12:00 PM. Primer baño en Spratt Bight. Atardecer romántico en el muelle y cena.', mapQuery: 'Spratt Bight San Andres' },
-  { id: 2, day: 2, date: 'Mié 28', title: 'Aventura en los Cayos', iconType: 'palmtree', iconColor: 'var(--cat-teal)', details: 'Tour a Johnny Cay, El Acuario y Haynes Cay (8:00 AM). Cena romántica en Donde Francesca.', mapQuery: 'Restaurante Donde Francesca San Andres' },
-  { id: 3, day: 3, date: 'Jue 29', title: 'Vuelta a la Isla', iconType: 'mappin', iconColor: 'var(--cat-blue)', details: 'Recorrido en carrito: Mirador La Loma, Cueva de Morgan, Hoyo Soplador y West View. Almuerzo típico.', mapQuery: 'West View San Andres' },
-  { id: 4, day: 4, date: 'Vie 30', title: 'Bajo el Mar y Alta Cocina', iconType: 'heart', iconColor: 'var(--cat-rose)', details: 'Buceo/snorkel en West View. Nado en Cocoplum Bay. Cena premium en La Regatta.', mapQuery: 'La Regatta Restaurante San Andres' },
-  { id: 5, day: 5, date: 'Sáb 31', title: 'Cultura y Noche', iconType: 'music', iconColor: 'var(--cat-purple)', details: 'Casa Museo Isleña, manglares (Old Point) y Laguna Big Pond. Discoteca al ritmo del reggae.', mapQuery: 'Laguna Big Pond San Andres' },
-  { id: 6, day: 6, date: 'Dom 1', title: 'Día Libre y Compras', iconType: 'shopping', iconColor: 'var(--cat-yellow)', details: 'Día libre para pasear y compras en Duty Free. Gran cena de cierre.', mapQuery: 'Centro Comercial San Andres' },
-  { id: 7, day: 7, date: 'Lun 2', title: 'Despedida del Paraíso', iconType: 'sun', iconColor: 'var(--cat-orange)', details: 'Amanecer juntos. Paseo final por la playa y preparación para el vuelo (Mar 3).', mapQuery: 'Aeropuerto Gustavo Rojas Pinilla San Andres' },
+  { id: 1, day: 1, date: 'Lun 26', title: 'Llegada y Primer Vistazo', iconType: 'sun', iconColor: 'var(--cat-rose)', details: 'Llegada a las 11:00 AM. Primer baño en Spratt Bight. Atardecer romántico en el muelle y cena.', mapQuery: 'Spratt Bight San Andres' },
+  { id: 2, day: 2, date: 'Mar 27', title: 'Aventura en los Cayos', iconType: 'palmtree', iconColor: 'var(--cat-teal)', details: 'Tour a Johnny Cay, El Acuario y Haynes Cay (8:00 AM). Cena romántica en Donde Francesca.', mapQuery: 'Restaurante Donde Francesca San Andres' },
+  { id: 3, day: 3, date: 'Mié 28', title: 'Vuelta a la Isla', iconType: 'mappin', iconColor: 'var(--cat-blue)', details: 'Recorrido en carrito: Mirador La Loma, Cueva de Morgan, Hoyo Soplador y West View. Almuerzo típico.', mapQuery: 'West View San Andres' },
+  { id: 4, day: 4, date: 'Jue 29', title: 'Bajo el Mar y Alta Cocina', iconType: 'heart', iconColor: 'var(--cat-rose)', details: 'Buceo/snorkel en West View. Nado en Cocoplum Bay. Cena premium en La Regatta.', mapQuery: 'La Regatta Restaurante San Andres' },
+  { id: 5, day: 5, date: 'Vie 30', title: 'Cultura y Noche', iconType: 'music', iconColor: 'var(--cat-purple)', details: 'Casa Museo Isleña, manglares (Old Point) y Laguna Big Pond. Discoteca al ritmo del reggae.', mapQuery: 'Laguna Big Pond San Andres' },
+  { id: 6, day: 6, date: 'Sáb 31', title: 'Día Libre y Compras', iconType: 'shopping', iconColor: 'var(--cat-yellow)', details: 'Día libre para pasear y compras en Duty Free. Gran cena de cierre.', mapQuery: 'Centro Comercial San Andres' },
+  { id: 7, day: 7, date: 'Dom 1', title: 'Despedida del Paraíso', iconType: 'sun', iconColor: 'var(--cat-orange)', details: 'Amanecer juntos. Paseo final por la playa y preparación para el vuelo (Lun 2).', mapQuery: 'Aeropuerto Gustavo Rojas Pinilla San Andres' },
 ];
 
 const DEFAULT_BUDGET_CATEGORIES = [
