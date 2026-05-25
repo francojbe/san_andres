@@ -85,7 +85,7 @@ export default function App() {
   // States - Persistidos
   const [itinerary, setItinerary] = useLocalStorage('sa_itinerary', DEFAULT_ITINERARY);
   const [expenses, setExpenses] = useLocalStorage('sa_expenses', []);
-  const [exchangeRate, setExchangeRate] = useLocalStorage('sa_exchangeRate', 0.23);
+  const [exchangeRate, setExchangeRate] = useLocalStorage('sa_exchangeRate', 0.27);
   const [categories, setCategories] = useLocalStorage('sa_categories', DEFAULT_BUDGET_CATEGORIES);
   const [totalBudget, setTotalBudget] = useLocalStorage('sa_totalBudget', 4000000);
   const [checkedItems, setCheckedItems] = useLocalStorage('sa_packing', {});
